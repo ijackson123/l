@@ -16,8 +16,9 @@ let result = document.querySelector(".result");
  const doggieAge = humanAge * 7;
   return doggieAge;
  };
+
 const showDoggieAge=(age)=>{
-  result.innerHTML=`Your doggie is${age}years old in human years!`;
+  result.innerHTML=`Your doggie is ${age} years old in human years!`;
 };
 
 const humanYears=0;
